@@ -15,3 +15,6 @@ The migration adds content tables and does not drop the five existing tables: st
 Student entry is name-only and does not verify identity. Activity confirmation records a student's statement that they uploaded work; it does not verify the Google Drive file. Do not treat these records as identity-verified/high-stakes assessment without stronger student authentication.
 
 When tested, merge/push changes to your existing GitHub repository and Vercel will redeploy if connected. Add DATABASE_URL, TEACHER_USERNAME, TEACHER_PASSWORD and AUTH_SECRET to Vercel Environment Variables.
+## Development
+
+This branch is used to test new features and improvements before production deployment.
